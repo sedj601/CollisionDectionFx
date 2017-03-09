@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.Double?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Polygon?>
+
+<AnchorPane id="AnchorPane" fx:id="apMain" prefHeight="446.0" prefWidth="577.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.111" fx:controller="collisiondection.FXMLDocumentController">
+    <children>
+        <Label fx:id="lblMain" layoutX="254.0" layoutY="408.0" minHeight="16" minWidth="69" />
+      <Polygon fx:id="polyOne" fill="DODGERBLUE" layoutX="122.0" layoutY="166.0" stroke="BLACK" strokeType="INSIDE">
+        <points>
+          <Double fx:value="-50.0" />
+          <Double fx:value="40.0" />
+          <Double fx:value="50.0" />
+          <Double fx:value="40.0" />
+          <Double fx:value="0.0" />
+          <Double fx:value="-60.0" />
+        </points>
+      </Polygon>
+      <Polygon fx:id="polyTwo" fill="DODGERBLUE" layoutX="419.0" layoutY="166.0" stroke="BLACK" strokeType="INSIDE">
+        <points>
+          <Double fx:value="-50.0" />
+          <Double fx:value="40.0" />
+          <Double fx:value="50.0" />
+          <Double fx:value="40.0" />
+          <Double fx:value="0.0" />
+          <Double fx:value="-60.0" />
+        </points>
+      </Polygon>
+    </children>
+</AnchorPane>
